@@ -255,6 +255,20 @@ footer a {
 
 
 @media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column; 
+        padding: 0px;
+        width: 0px auto;
+        margin: 0px;
+     
+    }
+    .nav-items{
+        flex-direction: column;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:577) {
     .nav-container{
         flex-direction: column;
     }
