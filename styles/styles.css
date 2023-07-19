@@ -1,6 +1,9 @@
 * {
     font-family: 'Work Sans'
 }
+.hide{
+    display: none;
+}
 
 .nav-container {
     padding: 40px 150px;
@@ -120,28 +123,29 @@
     width: 100%;
 }
 
-.games-videos-content h2 {
+.title-primary {
     color: #0B0223;
     font-size: 48px;
     font-weight: 700;
 }
 
-.games-videos-content span {
+.title-color {
     color: #fff;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.games-videos-content p {
+.section-description {
     color: #534C64;
     font-size: 18px;
     font-weight: 400;
 }
-.games-card{
+
+.games-card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 1440px;
+    width: 1520px;
     margin: 50px auto;
 }
 
@@ -152,28 +156,106 @@
     margin-top: 10px;
 }
 
+.online-games {
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+    width: 1520px;
+    margin: auto;
+}
+
+.game-img img {
+    margin-right: 250px;
+}
+
+.game img {
+    position: relative;
+    bottom: 236px;
+    left: 530px;
+}
+
+.game-btn-container {
+    width: 1520px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.game-btn-content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 50px;
+}
+
+.game-btn-content-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.game-btn {
+    display: flex;
+    cursor: pointer;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.game-btn:hover {
+    padding: 15px 20px;
+    color: #FF42A5;
+    border: 5px solid #FF42A5;
+    border-radius: 70px;
+    width: 300px;
+}
+
+.game-btn p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.game-btn p:hover {
+    color: #FF42A5;
+}
+
+.footer {
+    background: #0B0223;
+    text-align: center;
+    height: 600px;
+}
+
+.footer-logo-container {
+    justify-content: center;
+}
+
+.footer-title {
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px;
+}
+
+.footer-icon {
+    margin: 60px;
+}
+
+.footer p {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
 
 
 @media screen and (max-width:576px) {
-    .nav-container {
+    .nav-container{
         flex-direction: column;
-    }
-
-    .banner-section {
-        flex-direction: column-reverse;
-        padding: 20px 50px;
-    }
-
-    .banner-content {
-        width: 100%;
-    }
-
-    .banner-img img {
-        width: 100%;
-    }
-    .games-card{
-        grid-template-columns: repeat(1, 1fr);
-        width: auto;
-        padding: 0px 40px;
     }
 }
