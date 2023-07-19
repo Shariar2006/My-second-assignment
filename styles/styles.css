@@ -127,7 +127,7 @@
     font-weight: 700;
 }
 
-.title-color {
+.title-text-color {
     color: #fff;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
