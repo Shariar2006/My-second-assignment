@@ -265,9 +265,3 @@ footer a {
         padding: 0px;
     }
 }
-
-@media screen and (max-width:992px) and (min-width:577) {
-    .nav-container{
-        flex-direction: column;
-    }
-}
